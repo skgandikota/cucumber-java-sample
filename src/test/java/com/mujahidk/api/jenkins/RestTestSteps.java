@@ -36,6 +36,7 @@ public class RestTestSteps {
             HttpEntity entity = response.getEntity();
             // Get the JSON contents as String
             result = EntityUtils.toString(entity);
+            	System.out.println(result);
         } finally {
             response.close();
         }
