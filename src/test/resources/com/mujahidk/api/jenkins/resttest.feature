@@ -2,6 +2,6 @@ Feature: ReST Test
   To check if Jenkins ReST API has the project name information.
 
   Scenario: Access API
-    Given Our API is located at #http://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b1b15e88fa797225412429c1c50c122a1#
+    Given Our API is located at #http://siteorder-service.dev.services.mnscorp.net/channelorderui/api/v1/orders/search?upc=00011686&pageNo=1&pageSize=1#
     When The data is fetched
   
